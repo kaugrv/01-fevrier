@@ -1,0 +1,165 @@
+body {
+  margin:0;
+}
+
+.bon-anniv {
+
+}
+
+button {
+  cursor: pointer;
+}
+
+.comicSansMS, .frite, .lumon, .portal, .halflife, .pouler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 50px;
+  flex-direction: column;
+}
+
+
+.comicSansMS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 50px;
+  flex-direction: column;
+  font-weight: bold;
+  font-family:'Comic Sans MS';
+  background-color: grey;
+}
+
+.comicSansMS img {
+  max-width: 200px;
+
+}
+.comicSansMS button {
+  max-width: 50px;
+}
+
+.frite {
+  background-image: url('../images/frite.jpg');
+  font-family: 'Potato-Regular';
+  font-size:30px;
+  color:rgb(255, 255, 255);
+  text-shadow: rgb(23, 255, 50) 10px 0px 10px;
+  
+}
+
+.frite img {
+  width: 200px;
+}
+
+.frite button {
+  font-family: 'Potato-Regular';
+  font-size: 30px;
+  background-color: yellow;
+  border: 0;
+}
+
+.lumon {
+  font-family: 'Manifold';
+  background-color: #0076A3;
+  color: white;
+  text-transform: uppercase;
+}
+
+.lumon button {
+  font-family: 'Manifold';
+  color: white;
+  border: solid 2px white;
+  background-color: #0076A3;
+  padding: 10px;
+  
+}
+
+.lumon button:hover {
+  padding: 15px;
+  
+  
+}
+
+.portal {
+  font-family: 'Portal';
+  background-image: url('../images/portal-bg.webp');
+  color: azure;
+  text-transform: uppercase;
+  cursor: url("../images/portal.cur"), pointer;
+}
+
+.portal button {
+  font-family: 'Portal';
+  width: 200px;
+  border-radius: 0;
+  border: 0px;
+  background-color: grey;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.portal button:hover {
+  color: black;
+  background-color: rgb(242, 242, 108);
+}
+
+.halflife {
+  font-family: 'Trebuchet MS';
+  font-size: 25px;
+  background-image: url('../images/halflife-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #F37C1B;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  cursor: crosshair;
+}
+
+.halflife img {
+  width: 100px;
+}
+
+.halflife button {
+  border: 0px;
+  font-size:25px;
+  color: #F37C1B;
+  background: none;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.pouler img {
+  width: 40%;
+}
+.pouler {
+  background-color: #050507;
+  font-family: "Times New Roman";
+  color: white;
+  font-size: larger;
+  cursor: url("../images/chicken.png"), pointer;
+}
+
+.pouler button {
+  font-family: "Times New Roman";
+  color: gray;
+  font-size: larger;
+  background: none;
+  border: 0px;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: Potato-Regular;
+  src: url("../fonts/Potato-Regular.ttf");
+}
+
+@font-face {
+  font-family: Manifold;
+  src: url("../fonts/Manifold.otf");
+}
+
+@font-face {
+  font-family: Portal;
+  src: url("../fonts/portal.ttf");
+}
