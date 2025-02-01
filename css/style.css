@@ -1,16 +1,20 @@
 body {
-  margin:0;
+  margin: 0;
 }
 
 .bon-anniv {
-
 }
 
 button {
   cursor: pointer;
 }
 
-.comicSansMS, .frite, .lumon, .portal, .halflife, .pouler {
+.comicSansMS,
+.frite,
+.lumon,
+.portal,
+.halflife,
+.pouler {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +22,6 @@ button {
   gap: 50px;
   flex-direction: column;
 }
-
 
 .comicSansMS {
   display: flex;
@@ -28,25 +31,23 @@ button {
   gap: 50px;
   flex-direction: column;
   font-weight: bold;
-  font-family:'Comic Sans MS';
+  font-family: "Comic Sans MS";
   background-color: grey;
 }
 
 .comicSansMS img {
   max-width: 200px;
-
 }
 .comicSansMS button {
   max-width: 50px;
 }
 
 .frite {
-  background-image: url('../images/frite.jpg');
-  font-family: 'Potato-Regular';
-  font-size:30px;
-  color:rgb(255, 255, 255);
+  background-image: url("../images/frite.jpg");
+  font-family: "Potato-Regular";
+  font-size: 30px;
+  color: rgb(255, 255, 255);
   text-shadow: rgb(23, 255, 50) 10px 0px 10px;
-  
 }
 
 .frite img {
@@ -54,44 +55,41 @@ button {
 }
 
 .frite button {
-  font-family: 'Potato-Regular';
+  font-family: "Potato-Regular";
   font-size: 30px;
   background-color: yellow;
   border: 0;
 }
 
 .lumon {
-  font-family: 'Manifold';
-  background-color: #0076A3;
+  font-family: "Manifold";
+  background-color: #0076a3;
   color: white;
   text-transform: uppercase;
 }
 
 .lumon button {
-  font-family: 'Manifold';
+  font-family: "Manifold";
   color: white;
   border: solid 2px white;
-  background-color: #0076A3;
+  background-color: #0076a3;
   padding: 10px;
-  
 }
 
 .lumon button:hover {
   padding: 15px;
-  
-  
 }
 
 .portal {
-  font-family: 'Portal';
-  background-image: url('../images/portal-bg.webp');
+  font-family: "Portal";
+  background-image: url("../images/portal-bg.webp");
   color: azure;
   text-transform: uppercase;
   cursor: url("../images/portal.cur"), pointer;
 }
 
 .portal button {
-  font-family: 'Portal';
+  font-family: "Portal";
   width: 200px;
   border-radius: 0;
   border: 0px;
@@ -106,13 +104,14 @@ button {
 }
 
 .halflife {
-  font-family: 'Trebuchet MS';
+  font-family: "Trebuchet MS";
   font-size: 25px;
-  background-image: url('../images/halflife-bg.jpg');
+  background-image: url("../images/halflife-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: #F37C1B;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: #f37c1b;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   cursor: crosshair;
 }
 
@@ -122,11 +121,11 @@ button {
 
 .halflife button {
   border: 0px;
-  font-size:25px;
-  color: #F37C1B;
+  font-size: 25px;
+  color: #f37c1b;
   background: none;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .pouler img {
